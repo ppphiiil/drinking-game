@@ -18,7 +18,7 @@ import './Reset.css'
 
 function App () {
   const AppContainer = styled.div`
-    height: 100vh;
+    height: 100%;
     font-size: 2rem;
     width: 100vw;
   `

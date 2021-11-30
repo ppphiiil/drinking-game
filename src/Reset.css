@@ -12,8 +12,21 @@
 
 :root {
   /* font-size: 62.5%; */
+  height:100%;
   font-family: Roboto,Verdana, Geneva, Tahoma, sans-serif;
 
+}
+
+body{
+  height:100%;
+}
+
+#root{
+  height:100%;
+}
+
+html{
+  height:100%;
 }
 
 /* ================================= Reset End*/
