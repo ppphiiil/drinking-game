@@ -17,10 +17,6 @@ export default function GamePage () {
 
 
   const playGame = () =>{
-
-
-
-    
     return  <Card/>
 
   }
