@@ -49,8 +49,8 @@ function App () {
         <Pages>
         <Routes>
         
-          <Route exact path='/drinking-game' element={<StartPage />}></Route>
-          <Route path='/drinking-game/game' element={<GamePage />}></Route>
+          <Route path='/' element={<StartPage />}></Route>
+          <Route path='/game' element={<GamePage />}></Route>
         
         </Routes>
         </Pages>
