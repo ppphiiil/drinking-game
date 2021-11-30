@@ -1,7 +1,9 @@
 import React from 'react'
+
 //Router
 
-import { Routes, Route, Link } from 'react-router-dom'
+import { BrowserRouter,Routes, Route, Link } from 'react-router-dom'
+import { HashRouter} from 'react-router-dom'
 
 //Components
 import NavigationTop from './components/NavigationTop'
@@ -14,7 +16,9 @@ import GamePage from './pages/GamePage'
 //Style
 import styled from 'styled-components'
 import './Reset.css'
+require( "dotenv" ).config();
 
+console.log("process.env.PUBLIC_URL",process.env.PUBLIC_URL)
 
 function App () {
   const AppContainer = styled.div`
@@ -42,17 +46,21 @@ function App () {
   width:100%;
   `
 
+
+
+
   return (
     <AppContainer>
       <PageContainer>
         <NavigationTop />
         <Pages>
-        <Routes>
-        
-          <Route path='/drinking-game' element={<StartPage />}></Route>
-          <Route path='/drinking-game/game' element={<GamePage />}></Route>
-        
+     
+          <Routes>
+          <Route exact path={process.env.PUBLIC_URL+"/drinking-game"} element={<StartPage />}></Route>
+          <Route path={process.env.PUBLIC_URL+"/drinking-game/game"} element={<GamePage />}></Route>
         </Routes>
+   
+    
         </Pages>
         <NavigationBottom />
       </PageContainer>

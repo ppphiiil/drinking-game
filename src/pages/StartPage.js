@@ -6,7 +6,7 @@ import Button from '@mui/material/Button';
 export default function StartPage() {
     return (
         <div>
-            <Link to="/drinking-game/game"> <Button variant="contained">Start Game</Button></Link>
+            <Link to={process.env.PUBLIC_URL+"/drinking-game/game"}> <Button variant="contained">Start Game</Button></Link>
         </div>
     )
 }
