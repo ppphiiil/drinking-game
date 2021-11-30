@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/drinking-game/static/css/main.4d3ea6ea.chunk.css",
-    "main.js": "/drinking-game/static/js/main.09c75e26.chunk.js",
-    "main.js.map": "/drinking-game/static/js/main.09c75e26.chunk.js.map",
+    "main.js": "/drinking-game/static/js/main.4ee37987.chunk.js",
+    "main.js.map": "/drinking-game/static/js/main.4ee37987.chunk.js.map",
     "runtime-main.js": "/drinking-game/static/js/runtime-main.2ab09140.js",
     "runtime-main.js.map": "/drinking-game/static/js/runtime-main.2ab09140.js.map",
     "static/js/2.9f7ca9af.chunk.js": "/drinking-game/static/js/2.9f7ca9af.chunk.js",
@@ -15,6 +15,6 @@
     "static/js/runtime-main.2ab09140.js",
     "static/js/2.9f7ca9af.chunk.js",
     "static/css/main.4d3ea6ea.chunk.css",
-    "static/js/main.09c75e26.chunk.js"
+    "static/js/main.4ee37987.chunk.js"
   ]
 }
