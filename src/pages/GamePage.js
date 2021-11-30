@@ -7,12 +7,12 @@ export default function GamePage () {
   const { page, setPage } = useContext(MyContext)
 
 
-
- 
-  useEffect(() => {
-      setPage(0);
-   
-  }, [])
+// 
+//  
+//   useEffect(() => {
+//       setPage(0);
+//    
+//   }, [])
 
 
 
