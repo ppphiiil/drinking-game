@@ -42,7 +42,7 @@ const Pages = styled.div`
   justify-content: center;
   align-items: stretch;
   flex-grow: 1;
-  padding: 10px;
+ 
   width: 100%;
 `
 
