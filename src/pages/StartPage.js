@@ -1,12 +1,15 @@
 import React from 'react'
-import {Link } from 'react-router-dom'
+import {NavLink } from 'react-router-dom'
 
 import Button from '@mui/material/Button';
 
+console.log(" startpage process.env.PUBLIC_URL",process.env.PUBLIC_URL)
+
 export default function StartPage() {
+
     return (
         <div>
-            <Link to={process.env.PUBLIC_URL+"/drinking-game/game"}> <Button variant="contained">Start Game</Button></Link>
+            <NavLink to={process.env.PUBLIC_URL+"/game"}> <Button variant="contained">Start Game</Button></NavLink>
         </div>
     )
 }

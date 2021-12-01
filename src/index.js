@@ -12,10 +12,12 @@ require( "dotenv" ).config();
 console.log("process.env.PUBLIC_URL",process.env.PUBLIC_URL)
 
 reactDOM.render(
+ 
   <MyContextContainer>
-    <HashRouter basename={process.env.PUBLIC_URL + "/"}>
+    
       <App />
-    </HashRouter>
-  </MyContextContainer>,
+    
+  </MyContextContainer>
+,
   document.getElementById('root')
 )
