@@ -1,20 +1,20 @@
 {
   "files": {
     "main.css": "/drinking-game/static/css/main.4d3ea6ea.chunk.css",
-    "main.js": "/drinking-game/static/js/main.de5cf6be.chunk.js",
-    "main.js.map": "/drinking-game/static/js/main.de5cf6be.chunk.js.map",
+    "main.js": "/drinking-game/static/js/main.5f33c43c.chunk.js",
+    "main.js.map": "/drinking-game/static/js/main.5f33c43c.chunk.js.map",
     "runtime-main.js": "/drinking-game/static/js/runtime-main.2ab09140.js",
     "runtime-main.js.map": "/drinking-game/static/js/runtime-main.2ab09140.js.map",
-    "static/js/2.f67d73c9.chunk.js": "/drinking-game/static/js/2.f67d73c9.chunk.js",
-    "static/js/2.f67d73c9.chunk.js.map": "/drinking-game/static/js/2.f67d73c9.chunk.js.map",
+    "static/js/2.51057d66.chunk.js": "/drinking-game/static/js/2.51057d66.chunk.js",
+    "static/js/2.51057d66.chunk.js.map": "/drinking-game/static/js/2.51057d66.chunk.js.map",
     "index.html": "/drinking-game/index.html",
     "static/css/main.4d3ea6ea.chunk.css.map": "/drinking-game/static/css/main.4d3ea6ea.chunk.css.map",
-    "static/js/2.f67d73c9.chunk.js.LICENSE.txt": "/drinking-game/static/js/2.f67d73c9.chunk.js.LICENSE.txt"
+    "static/js/2.51057d66.chunk.js.LICENSE.txt": "/drinking-game/static/js/2.51057d66.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.2ab09140.js",
-    "static/js/2.f67d73c9.chunk.js",
+    "static/js/2.51057d66.chunk.js",
     "static/css/main.4d3ea6ea.chunk.css",
-    "static/js/main.de5cf6be.chunk.js"
+    "static/js/main.5f33c43c.chunk.js"
   ]
 }
