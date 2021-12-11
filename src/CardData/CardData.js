@@ -147,6 +147,10 @@ export const rules = [{
   longDescription:"Jeder muss eine Runde das letzte Wort jedes Satzes wiederholen"
 },{
   rating: 1,
+  description: "Gadget",
+  longDescription:"Du trägst ab jetzt die Brille"
+},{
+  rating: 1,
   description: "Frauen Drinken",
   longDescription:"Alle Frauen müssen trinken"
 },{
@@ -169,6 +173,10 @@ export const rules = [{
   rating: 1,
   description: "Trinkpartner",
   longDescription:"Wähle einen Trinkpartner aus. Er trinkt immer wenn du trinkst."
+},{
+  rating: 1,
+  description: "Gadget",
+  longDescription:"Du trägst ab jetzt die Brille"
 },
 {
   rating: 1,
