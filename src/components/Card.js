@@ -20,7 +20,7 @@ const CardContainer = styled.div`
   padding: 0px 10px 10px 10px;
 `
 const CardStyle = styled.div`
-  background-color: #0b132b;
+  background-color: #131e47;
   border-radius: 15px;
   display: flex;
   flex-direction: column;
