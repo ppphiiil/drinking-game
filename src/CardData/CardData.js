@@ -17,6 +17,10 @@ export const todos = [{
   description: "Sprich eine Runde auffällig zweideutig",
   tagLocation: ["home"]
 },{
+  rating: 1,
+  description: "Packe ein Besteck in deine Tasche",
+  tagLocation: ["home"]
+},{
   rating: 3,
   description: "Bestelle für deinen rechten Nachbarn ein kleines Leitungswasser.",
   tagLocation: ["home","erotic"]
