@@ -170,6 +170,10 @@ export const rules = [{
   rating: 1,
   description: "Duell",
   longDescription:"Wähle weise! Wer als ersters lacht, trinkt."
+},{
+  rating: 1,
+  description: "Abfüller",
+  longDescription:"Nur Maria trinkt"
 },
 {
   rating: 1,
