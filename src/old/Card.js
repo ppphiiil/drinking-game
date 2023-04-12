@@ -1,7 +1,6 @@
 import React, { useContext, useEffect } from 'react'
-import { todos, drink, rules } from '../CardData/CardData'
-import styled from 'styled-components'
-import { MyContext } from '../context/MyContextContainer'
+
+import { MyContext } from './MyContextContainer'
 
 //Icons
 import NextPlanIcon from '@mui/icons-material/NextPlan'
@@ -78,12 +77,12 @@ export default function Card () {
 
   useEffect(() => {
     setDisplayedCard(getRandomCard)
-    
+
   }, [skip])
 
   const nextPlayer = (currentPlayer) => {
     console.log('next Player should be', gameInfos.players.indexOf(currentPlayer)+2)
-    
+
 
     const playersIndex=gameInfos.players.indexOf(currentPlayer);
     const numberPlayers = gameInfos.players.length;
@@ -98,7 +97,7 @@ export default function Card () {
     }
 
     return newPlayer;
-      
+
   }
 
   const categories = ['doOrDrink', 'rules']

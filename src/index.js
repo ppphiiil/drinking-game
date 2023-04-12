@@ -1,11 +1,11 @@
 import React from 'react'
 
-import App from './App.js'
+import App from './app/App.js'
 import reactDOM from 'react-dom'
 import { HashRouter } from 'react-router-dom'
 
 //MyContext API
-import { MyContextContainer } from './context/MyContextContainer'
+import { MyContextContainer } from './old/MyContextContainer'
 
 reactDOM.render(
   <MyContextContainer>

@@ -1,0 +1,1 @@
+export {allCards} from "./CardData"
