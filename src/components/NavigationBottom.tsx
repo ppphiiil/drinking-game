@@ -37,7 +37,7 @@ export default function NavigationBottom() {
             label="Karten"
             icon={<DashboardIcon />}
           />
-          <BottomNavigationAction label="History" icon={<RestoreIcon />} />
+          {/* <BottomNavigationAction label="History" icon={<RestoreIcon />} />*/}
 
           <BottomNavigationAction
             onClick={() => history.replace("/settings")}

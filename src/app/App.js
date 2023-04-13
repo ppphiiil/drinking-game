@@ -18,6 +18,8 @@ import "../Reset.css";
 import { ServiceProvider } from "../services/service-provider";
 import { services } from "./service-instances";
 import SettingPage from "../pages/SettingPage";
+import { blackTheme, ThemeProvider } from "@ppphiiil/mvp-system";
+
 require("dotenv").config();
 
 console.log(
@@ -53,24 +55,26 @@ const Pages = styled.div`
 function App() {
   return (
     <HashRouter>
-      <ServiceProvider services={services}>
-        <AppContainer>
-          <PageContainer>
-            {/* <NavigationTop />*/}
-            <Pages>
-              <Switch>
-                <Route exact path={process.env.REACT_APP_PUBLIC_URL + "/"}>
-                  <GamePage />
-                </Route>
-                <Route path={process.env.REACT_APP_PUBLIC_URL + "/settings"}>
-                  <SettingPage />
-                </Route>
-              </Switch>
-            </Pages>
-            <NavigationBottom />
-          </PageContainer>
-        </AppContainer>
-      </ServiceProvider>
+      <ThemeProvider theme={blackTheme}>
+        <ServiceProvider services={services}>
+          <AppContainer>
+            <PageContainer>
+              {/* <NavigationTop />*/}
+              <Pages>
+                <Switch>
+                  <Route exact path={process.env.REACT_APP_PUBLIC_URL + "/"}>
+                    <GamePage />
+                  </Route>
+                  <Route path={process.env.REACT_APP_PUBLIC_URL + "/settings"}>
+                    <SettingPage />
+                  </Route>
+                </Switch>
+              </Pages>
+              <NavigationBottom />
+            </PageContainer>
+          </AppContainer>
+        </ServiceProvider>
+      </ThemeProvider>
     </HashRouter>
   );
 }

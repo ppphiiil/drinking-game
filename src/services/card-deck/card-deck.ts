@@ -29,7 +29,17 @@ export class CardDeckService {
   // Diese Methode gibt das aktuelle Deck zurück.
   getCardDeckByLocation(location: LocationType): CardDeckService {
     const newCardDeck = this.filterByLocation(location);
-    return new CardDeckService(newCardDeck);
+
+    return new CardDeckService(this.shuffle(newCardDeck));
+  }
+
+  shuffle(deck: Card[]): Card[] {
+    const shuffledDeck = [...deck];
+    for (let i = shuffledDeck.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [shuffledDeck[i], shuffledDeck[j]] = [shuffledDeck[j], shuffledDeck[i]];
+    }
+    return shuffledDeck;
   }
 
   getNextCard(): Card | null {

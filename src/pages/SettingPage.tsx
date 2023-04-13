@@ -1,8 +1,10 @@
 import React from "react";
 import { useServices } from "../services/service-provider";
 import { useHistory } from "react-router-dom";
-import { Typography } from "@mui/material";
+import { Chip, Typography } from "@mui/material";
 import { LocationType } from "../components/card";
+import { PrimaryButton } from "@ppphiiil/mvp-system";
+import { Headline } from "./styles";
 
 export default function SettingPage() {
   const { gameService } = useServices();
@@ -10,16 +12,16 @@ export default function SettingPage() {
 
   return (
     <div>
-      <Typography>Spiel beenden</Typography>
+      <Headline variant={"h2"}>Spiel beenden</Headline>
 
-      <button
+      <PrimaryButton
         onClick={() => {
           gameService.stopGame();
-          // history.replace("/");
+          history.replace("/");
         }}
       >
         Spiel beenden
-      </button>
+      </PrimaryButton>
     </div>
   );
 }
